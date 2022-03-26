@@ -17,8 +17,8 @@ lint:
 	$(CARGO) fmt -- --check
 	$(CARGO) clippy
 
-.PHONY: apply-format
-apply-format:
+.PHONY: format
+format:
 	$(CARGO) fmt
 
 .PHONY: test
